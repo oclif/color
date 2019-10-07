@@ -1,7 +1,7 @@
 import * as ansiStyles from 'ansi-styles'
 import chalk from 'chalk'
 import * as supports from 'supports-color'
-import { deprecate } from 'util'
+import {deprecate} from 'util'
 
 let stripColor = (s: string): string => {
   return require('strip-ansi')(s)
@@ -11,18 +11,18 @@ const dim = process.env.ConEmuANSI === 'ON' ? chalk.gray : chalk.dim
 
 export const CustomColors: {
   supports: typeof supports
-  gray: (s: string) => string
-  grey: (s: string) => string
-  dim: (s: string) => string
-  attachment: (s: string) => string
-  addon: (s: string) => string
-  configVar: (s: string) => string
-  release: (s: string) => string
-  cmd: (s: string) => string
-  pipeline: (s: string) => string
-  app: (s: string) => string
-  heroku: (s: string) => string
-  stripColor: (s: string) => string
+  gray(s: string): string
+  grey(s: string): string
+  dim(s: string): string
+  attachment(s: string): string
+  addon(s: string): string
+  configVar(s: string): string
+  release(s: string): string
+  cmd(s: string): string
+  pipeline(s: string): string
+  app(s: string): string
+  heroku(s: string): string
+  stripColor(s: string): string
 } = {
   supports,
   // map gray -> dim because it's not solarized compatible
