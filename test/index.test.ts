@@ -1,3 +1,4 @@
+// tslint:disable:no-console
 import color from '../src'
 
 const output = color.red('foo')
