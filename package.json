@@ -38,10 +38,12 @@
   "main": "lib/index.js",
   "repository": "oclif/color",
   "scripts": {
-    "posttest": "tsc -p test --noEmit && tslint -p test -t stylish",
+    "posttest": "yarn lint",
     "prepack": "rm -rf lib && tsc",
     "prepare": "rm -rf lib && tsc",
-    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\""
+    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\"",
+    "lint": "eslint . --ext .ts --config .eslintrc",
+    "pretest": "tsc -p test --noEmit"
   },
   "types": "lib/index.d.ts"
 }
