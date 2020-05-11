@@ -1,4 +1,4 @@
-name: Windows Node.js
+name: Node.js CI
 
 on:
   push:
