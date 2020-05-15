@@ -1,5 +1,5 @@
 import * as ansiStyles from 'ansi-styles'
-import chalk from 'chalk'
+import * as chalk from 'chalk'
 import * as supports from 'supports-color'
 import {deprecate} from 'util'
 
