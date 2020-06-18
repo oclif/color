@@ -1,5 +1,5 @@
 import * as ansiStyles from 'ansi-styles'
-import chalk from 'chalk'
+import * as chalk from 'chalk'
 import * as supports from 'supports-color'
 import {deprecate} from 'util'
 
@@ -36,13 +36,13 @@ export const CustomColors: {
   cmd: chalk.cyan.bold,
   pipeline: chalk.green.bold,
   // eslint-disable-next-line @typescript-eslint/no-use-before-define
-  app: (s: string) => chalk.enabled ? color.heroku(`⬢ ${s}`) : s,
+  app: (s: string) => chalk.level > 0 ? color.heroku(`⬢ ${s}`) : s,
   heroku: (s: string) => {
-    if (!chalk.enabled) return s
+    if (chalk.level === 0) return s
     // eslint-disable-next-line @typescript-eslint/no-use-before-define
     if (!color.supports) return s
     // eslint-disable-next-line @typescript-eslint/no-use-before-define
-    const has256 = color.supportsColor.has256 || (process.env.TERM || '').indexOf('256') !== -1
+    const has256 = color.level >= 2 || (process.env.TERM || '').indexOf('256') !== -1
     return has256 ? '\u001b[38;5;104m' + s + ansiStyles.reset.open : chalk.magenta(s) // eslint-disable-line unicorn/escape-case
   },
   stripColor: deprecate(
@@ -59,7 +59,7 @@ export const color: typeof CustomColors & typeof chalk = new Proxy(chalk, {
   set: (chalk, name, value) => {
     switch (name) {
     case 'enabled':
-      chalk.enabled = value
+      if (!value) chalk.level = 0
       break
     default:
       throw new Error(`cannot set property ${name.toString()}`)
