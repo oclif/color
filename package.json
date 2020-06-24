@@ -44,7 +44,7 @@
     "prepare": "rm -rf lib && tsc",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "lint": "eslint . --ext .ts --config .eslintrc",
-    "pretest": "yarn build --noEmit",
+    "pretest": "yarn build --noEmit && tsc -p test --noEmit",
     "build": "rm -rf lib && tsc"
   },
   "types": "lib/index.d.ts"
