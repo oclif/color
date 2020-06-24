@@ -42,9 +42,10 @@
     "posttest": "yarn lint",
     "prepack": "rm -rf lib && tsc",
     "prepare": "rm -rf lib && tsc",
-    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\"",
+    "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "lint": "eslint . --ext .ts --config .eslintrc",
-    "pretest": "tsc -p test --noEmit"
+    "pretest": "yarn build --noEmit",
+    "build": "rm -rf lib && tsc"
   },
   "types": "lib/index.d.ts"
 }
