@@ -40,8 +40,8 @@
   "repository": "oclif/color",
   "scripts": {
     "posttest": "yarn lint",
-    "prepack": "rm -rf lib && tsc",
-    "prepare": "rm -rf lib && tsc",
+    "prepack": "yarn build",
+    "prepare": "yarn build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "pretest": "yarn build --noEmit && tsc -p test --noEmit",
