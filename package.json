@@ -5,7 +5,7 @@
   "bugs": "https://github.com/oclif/color/issues",
   "dependencies": {
     "ansi-styles": "^4.2.1",
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.0",
     "strip-ansi": "^6.0.0",
     "supports-color": "^7.1.0",
     "tslib": "^2"
