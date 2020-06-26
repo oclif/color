@@ -98,9 +98,10 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@types/ansi-styles@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@types/ansi-styles/-/ansi-styles-3.2.0.tgz#fc9622eeed20a4d92bc5c28cb3507b748a4c7eba"
+"@types/ansi-styles@^3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@types/ansi-styles/-/ansi-styles-3.2.1.tgz#49e996bb6e0b7957ca831205df31eb9a0702492c"
+  integrity sha512-UFa7mfKgSutXdT+elzJo8Ulr7FHgLNAyglVIOZYXFNJVQERm8DPrcwPret5BYk66LBE7fwm1XoVGi76MJkQ6ow==
   dependencies:
     "@types/color-name" "*"
 
