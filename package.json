@@ -6,7 +6,7 @@
   "dependencies": {
     "ansi-styles": "^3.2.1",
     "chalk": "^3.0.0",
-    "strip-ansi": "^5.2.0",
+    "strip-ansi": "^6.0.0",
     "supports-color": "^5.4.0",
     "tslib": "^2"
   },
