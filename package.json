@@ -4,7 +4,7 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/color/issues",
   "dependencies": {
-    "ansi-styles": "^4.2.1",
+    "ansi-styles": "^4.3.0",
     "chalk": "^4.1.0",
     "strip-ansi": "^6.0.0",
     "supports-color": "^7.1.0",
