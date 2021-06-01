@@ -213,19 +213,19 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@types/ansi-styles@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@types/ansi-styles/-/ansi-styles-3.2.1.tgz#49e996bb6e0b7957ca831205df31eb9a0702492c"
-  integrity sha512-UFa7mfKgSutXdT+elzJo8Ulr7FHgLNAyglVIOZYXFNJVQERm8DPrcwPret5BYk66LBE7fwm1XoVGi76MJkQ6ow==
+"@types/ansi-styles@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@types/ansi-styles/-/ansi-styles-4.2.0.tgz#2cd4a1224228906ba109538818db1655ab81e15d"
+  integrity sha512-GOFgxL1bG0rsuUTqBYzETHLV3kiYK/dVFeMxl/NjsM2NBe2kE+oHOL16aLHrZ32oCvzh0Iyop6TNcKaLnlMuRw==
   dependencies:
-    "@types/color-name" "*"
+    ansi-styles "*"
 
 "@types/chai@^4":
   version "4.2.15"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.15.tgz#b7a6d263c2cecf44b6de9a051cf496249b154553"
   integrity sha512-rYff6FI+ZTKAPkJUoyz7Udq3GaoDZnxYDEvdEdFZASiA7PoErltHezDishqQiSDWrGxvxmplH304jyzQmjp0AQ==
 
-"@types/color-name@*", "@types/color-name@^1.1.1":
+"@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
@@ -349,6 +349,11 @@ ansi-regex@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
   integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
+
+ansi-styles@*:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.1.0.tgz#87313c102b8118abd57371afab34618bf7350ed3"
+  integrity sha512-VbqNsoz55SYGczauuup0MFUyXNQviSpFTj1RQtFzmQLk18qbVSpTFFGMT293rmDaQuKCT6InmbuEyUne4mTuxQ==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
