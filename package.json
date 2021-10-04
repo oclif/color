@@ -1,6 +1,6 @@
 {
   "name": "@oclif/color",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/color/issues",
   "dependencies": {
