@@ -1,7 +1,7 @@
 {
   "name": "@oclif/color",
   "version": "1.0.0",
-  "author": "Jeff Dickey @jdxcode",
+  "author": "Salesforce",
   "bugs": "https://github.com/oclif/color/issues",
   "dependencies": {
     "ansi-styles": "^4.2.1",
