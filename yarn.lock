@@ -221,9 +221,9 @@
     "@types/color-name" "*"
 
 "@types/chai@^4":
-  version "4.2.15"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.15.tgz#b7a6d263c2cecf44b6de9a051cf496249b154553"
-  integrity sha512-rYff6FI+ZTKAPkJUoyz7Udq3GaoDZnxYDEvdEdFZASiA7PoErltHezDishqQiSDWrGxvxmplH304jyzQmjp0AQ==
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.1.tgz#e2c6e73e0bdeb2521d00756d099218e9f5d90a04"
+  integrity sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==
 
 "@types/color-name@*", "@types/color-name@^1.1.1":
   version "1.1.1"
