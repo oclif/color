@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/oclif/color/compare/1.0.5...1.0.6) (2023-06-04)
+
+
+### Bug Fixes
+
+* **deps:** bump tslib from 2.5.2 to 2.5.3 ([73b2f8d](https://github.com/oclif/color/commit/73b2f8d54c5de94b14c44e44b41171421682f39a))
+
+
+
 ## [1.0.5](https://github.com/oclif/color/compare/1.0.4...1.0.5) (2023-05-21)
 
 
