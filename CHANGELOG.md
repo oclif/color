@@ -1,3 +1,12 @@
+## [1.0.8](https://github.com/oclif/color/compare/1.0.7...1.0.8) (2023-07-12)
+
+
+### Bug Fixes
+
+* **deps:** bump semver from 5.7.1 to 5.7.2 ([cbe2193](https://github.com/oclif/color/commit/cbe219368050690c3b0248425f8599c247de4f95))
+
+
+
 ## [1.0.7](https://github.com/oclif/color/compare/1.0.6...1.0.7) (2023-07-02)
 
 
