@@ -1,3 +1,12 @@
+## [1.0.9](https://github.com/oclif/color/compare/1.0.8...1.0.9) (2023-07-19)
+
+
+### Bug Fixes
+
+* **deps:** bump word-wrap from 1.2.3 to 1.2.4 ([7a2f1c4](https://github.com/oclif/color/commit/7a2f1c4f4756d8d8862033b205b209c90493b75b))
+
+
+
 ## [1.0.8](https://github.com/oclif/color/compare/1.0.7...1.0.8) (2023-07-12)
 
 
