@@ -1,3 +1,12 @@
+## [1.0.12](https://github.com/oclif/color/compare/1.0.11...1.0.12) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** bump get-func-name from 2.0.0 to 2.0.2 ([4a5ec3c](https://github.com/oclif/color/commit/4a5ec3c665d40fd74453024e752fddb215668e0e))
+
+
+
 ## [1.0.11](https://github.com/oclif/color/compare/1.0.10...1.0.11) (2023-08-20)
 
 
