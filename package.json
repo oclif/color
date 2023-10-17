@@ -1,6 +1,6 @@
 {
   "name": "@oclif/color",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/color/issues",
   "dependencies": {

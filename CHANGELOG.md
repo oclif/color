@@ -1,3 +1,12 @@
+## [1.0.13](https://github.com/oclif/color/compare/1.0.12...1.0.13) (2023-10-17)
+
+
+### Bug Fixes
+
+* **deps:** bump @babel/traverse from 7.10.3 to 7.23.2 ([6969c5e](https://github.com/oclif/color/commit/6969c5e7016a029357b454fbc271825913b04bce))
+
+
+
 ## [1.0.12](https://github.com/oclif/color/compare/1.0.11...1.0.12) (2023-09-28)
 
 
